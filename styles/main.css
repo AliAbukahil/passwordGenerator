@@ -9,13 +9,77 @@ html {
 }
 
 body {
-  background-image: linear-gradient(120deg, #007991, #78ffd6);
+  background-image: linear-gradient(90deg, #09203f, #537895);
+  font-family: "Merriweather", serif;
 }
 
 h1 {
-  color: #ffc355;
-  letter-spacing: 1.5rem;
+  color: #48cae4;
+  letter-spacing: 0.8rem;
   text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  font-size: 2rem;
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#overlay {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#overlay #wrap {
+  width: auto;
+  height: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+}
+#overlay #wrap h2 {
+  color: #caf0f8;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+input[type=text] {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 20rem;
+  height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 3rem;
+  color: rgba(250, 250, 250, 0.7);
+  text-align: center;
+  border-radius: 0.5rem;
+  border: none;
+}
+input[type=text]:focus {
+  box-shadow: 0px 0px 7px rgba(250, 250, 250, 0.3);
+  outline: 0;
+}
+
+input[type=button] {
+  width: 10rem;
+  height: 4rem;
+  background-color: #1259b6;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.9rem;
+  color: whitesmoke;
+}
+input[type=button]:focus {
+  outline: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

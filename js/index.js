@@ -69,7 +69,7 @@ let chars = [
   "$",
 ];
 
-let exclure = ["azerty", "qwerty"];
+let exclude = ["azerty", "qwerty"];
 
 function generer() {
   document.getElementById("add").value = main();
@@ -100,6 +100,6 @@ function main() {
   do {
     result = generate();
     trials += result;
-  } while (exclure.indexOf(result) >= 0);
+  } while (exclude.indexOf(result) >= 0);
   return trials;
 }
