@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(120deg, #007991, #78ffd6);
+}
+
+h1 {
+  color: #ffc355;
+  letter-spacing: 1.5rem;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=main.css.map */
